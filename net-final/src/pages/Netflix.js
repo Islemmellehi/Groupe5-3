@@ -58,10 +58,7 @@ function Netflix() {
                 <FaPlay />
                 Play
               </button>
-              <button className="flex j-center a-center">
-                <AiOutlineInfoCircle />
-                More Info
-              </button>
+              
             </div>
           </div>
         </div>
