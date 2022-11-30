@@ -14,7 +14,6 @@ function Navbar({ isScrolled }) {
     { name: "Home", link: "/" },
     { name: "TV Shows", link: "/tv" },
     { name: "Movies", link: "/movies" },
-    { name: "My List", link: "/my list" },
   ];
   const [showSearch, setShowSearch] = useState(false);
   const [inputHover, setInputHover] = useState(false);

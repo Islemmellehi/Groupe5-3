@@ -2,10 +2,22 @@ import React, { useRef, useState } from "react";
 import styled from "styled-components";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import Card from "./Card";
-import cover from "../imgs/arcanecover.webp";
-import cover1 from "../imgs/arcane.jpg.webp";
-import cover2 from "../imgs/home.jpg";
-import cover3 from "../imgs/logo.png";
+
+import cover2 from "../imgs//newest/covers/athena.jpg";
+import cover3 from "../imgs/newest/covers/cabinet.jpg";
+import cover1 from "../imgs/newest/covers/dahmer.jpg";
+import cover4 from "../imgs/newest/covers/enola holmes.jpg";
+import cover5 from "../imgs/newest/covers/lord of the rings.jpg";
+import cover6 from "../imgs/newest/covers/lucy.jpg";
+import cover7 from "../imgs/newest/covers/ricknd morty.jpg";
+import cover8 from "../imgs/newest/covers/spyfam.jprg.webp";
+import cover9 from "../imgs/newest/covers/strangerthings.jpg";
+import cover10 from "../imgs/newest/covers/gooddoc.jpg";
+
+
+
+
+
 
 function CardSlider({ data, title}) {
   const listRef = useRef();
@@ -26,13 +38,15 @@ function CardSlider({ data, title}) {
 
   var popular = [
     cover2,
-    cover2,
-    cover2,
-    cover2,
-    cover2,
-    cover2,
-    cover2,
-    cover2,
+    cover1,
+    cover3,
+    cover4,
+    cover5,
+    cover6,
+    cover7,
+    cover8,
+    cover10,
+    cover9,
   ];
   return (
     <Container

@@ -2,10 +2,16 @@ import React, { useRef, useState } from "react";
 import styled from "styled-components";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import Card from "./Card";
-import cover from "../imgs/arcanecover.webp";
-import cover1 from "../imgs/arcane.jpg.webp";
-import cover2 from "../imgs/home.jpg";
-import cover3 from "../imgs/card.jpg";
+import cover10 from "../imgs/Nouveau dossier (2)/fightclub.jpg";
+import cover1 from "../imgs/Nouveau dossier (2)/fivefeetapart.jpg";
+import cover2 from "../imgs/Nouveau dossier (2)/godfather.jpg";
+import cover3 from "../imgs/Nouveau dossier (2)/howlsmovingcastle.jpg";
+import cover4 from "../imgs/Nouveau dossier (2)/inception.jpg";
+import cover5 from "../imgs/Nouveau dossier (2)/interstellar.jpg";
+import cover6 from "../imgs/Nouveau dossier (2)/spiritedaway.jpg";
+import cover7 from "../imgs/Nouveau dossier (2)/thegoodthebadndtheugly.jpg";
+import cover8 from "../imgs/Nouveau dossier (2)/thesilence.jpg";
+import cover9 from "../imgs/Nouveau dossier (2)/yourname.jpg";
 
 function CardSlider({ data, title}) {
   const listRef = useRef();
@@ -24,7 +30,7 @@ function CardSlider({ data, title}) {
   };
 
 
-  var best = [cover3, cover3, cover3, cover3, cover3, cover3, cover3, cover3];
+  var best = [cover1, cover2, cover3, cover4, cover5, cover6, cover7, cover8, cover9,cover10];
 
   return (
     <Container

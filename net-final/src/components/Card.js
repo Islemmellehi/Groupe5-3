@@ -13,7 +13,7 @@ import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import cover from '../imgs/arcanecover.webp'
 
-function Card({coverpic}) {
+function Card({coverpic,trailervid}) {
   const navigate = useNavigate();
   const [isHovered, setIsHovered] = useState(false);
 
@@ -37,7 +37,7 @@ function Card({coverpic}) {
               onClick={() => navigate("/player")}
             />
             <video
-              src={video}
+              src={`${trailervid}`}
               autoPlay={true}
               loop
               muted
